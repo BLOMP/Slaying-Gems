@@ -1,4 +1,4 @@
-# Slaying Gems
+# Slaying Gems ⚔️💎
 
 - Free Action/Match game by [David Bradbury](https://twitter.com/DavidBradbury) of [BLOMP](https://blomp.studio/)
 - *Will probably change the name to "Gem Slayer" or similar after the jam...*

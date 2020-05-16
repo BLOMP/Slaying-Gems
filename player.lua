@@ -32,12 +32,12 @@ sword = {
     local dist_y = 2
     if (dir == "right") dist_x = 7
     if (dir == "left") dist_x = -8
-    DEBUGX = player.x + dist_x
-    DEBUGY = player.y + dist_y
+    --DEBUGX = player.x + dist_x
+    --DEBUGY = player.y + dist_y
     result = board.in_board(player.x + dist_x, player.y + dist_y)
-    DEBUG = result.inside
+    --DEBUG = result.inside
     if result.inside then
-
+      board.swap(result.x, result.y, dir)
     end
   end,
 
